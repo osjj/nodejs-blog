@@ -1,6 +1,4 @@
-/**
- * Created by 毅 on 2016/8/28.
- */
+
 
 var express = require('express');
 var router = express.Router();
