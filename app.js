@@ -1,8 +1,3 @@
-/**
- * Created by 毅 on 2016/7/30.
- * 应用程序的启动（入口）文件
- */
-
 //加载express模块
 var express = require('express');
 //加载模板处理模块
@@ -73,6 +68,7 @@ mongoose.connect('mongodb://localhost:27017/blog', function(err) {
         console.log('数据库连接失败');
     } else {
         console.log('数据库连接成功');
+        console.log('success!');
         app.listen(9000);
     }
 });
